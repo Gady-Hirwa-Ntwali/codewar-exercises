@@ -1,9 +1,6 @@
-function setAlarm(employed, vacation){
-  if(employed === true && vacation === false){
-    return true;
-  }else{
-    return false;
-  }
-
+function numberToString(num) {
+  
+  return num.toString
+ 
 }
-console.log(setAlarm(true, true))
+console.log(numberToString(3))
