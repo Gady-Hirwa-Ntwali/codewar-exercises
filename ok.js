@@ -1,9 +1,7 @@
-function countBy(x,n){
-  let f = []
+function testEven(n) {
+  
+       return n % 2 ==0
 
-   for(let i = 1; i<=n; i++){
-    f.push(i*x)
-   }
-   return f
 }
-console.log(countBy(2,5))
+
+console.log(testEven(3))
