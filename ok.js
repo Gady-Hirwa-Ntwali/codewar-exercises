@@ -1,11 +1,4 @@
-function validateHello(greetings) {
-  const changed = greetings.toLowerCase()
-  return changed.includes('hello') || 
-  changed.includes('ciao') || 
-  changed.includes('salut') || 
-  changed.includes('hallo') || 
-  changed.includes('hola') || 
-  changed.includes('ahoj') ||
-  changed.includes('czesc')
+function hoopCount (n) {
+    return n >= 10 ? 'Great, now move on to tricks' : 'keep at it untill you get it' 
 }
-console.log(validateHello('tRes: lA HastA, CiAO'))
+console.log(hoopCount(10))
