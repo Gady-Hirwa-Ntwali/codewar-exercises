@@ -1,4 +1,13 @@
-function hoopCount (n) {
-    return n >= 10 ? 'Great, now move on to tricks' : 'keep at it untill you get it' 
+function validatePIN (pin) {
+  const pin2 = Number(pin)
+  if(isNaN(pin2) || pin.includes('.')){
+    return false
+  }
+  else if( pin.length === 4 || pin.length === 6? true: false){
+    return true
+  }
+  else{
+    return false
+  }
 }
-console.log(hoopCount(10))
+console.log(validatePIN('-2345'))
