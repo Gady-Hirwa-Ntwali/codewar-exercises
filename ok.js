@@ -1,13 +1,6 @@
-function validatePIN (pin) {
-  const pin2 = Number(pin)
-  if(isNaN(pin2) || pin.includes('.')){
-    return false
-  }
-  else if( pin.length === 4 || pin.length === 6? true: false){
-    return true
-  }
-  else{
-    return false
-  }
+function reverseWords(str) {
+    const updated = str.split(' ').map(m => m.split('').reverse().join(''))
+    return updated.join(' ')
 }
-console.log(validatePIN('-2345'))
+console.log(reverseWords('The quick brown fox jumps over the lazy dog.'))
+
