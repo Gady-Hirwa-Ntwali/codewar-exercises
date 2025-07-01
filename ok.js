@@ -1,6 +1,5 @@
-function reverseWords(str) {
-    const updated = str.split(' ').map(m => m.split('').reverse().join(''))
-    return updated.join(' ')
-}
-console.log(reverseWords('The quick brown fox jumps over the lazy dog.'))
+function addBinary(a,b) {
+  const sum = a+b
+  return sum.toString(2)
 
+}
