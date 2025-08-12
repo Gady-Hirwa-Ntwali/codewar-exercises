@@ -1,7 +1,5 @@
-function minMax(arr){
- const max  = Math.max(...arr)
- const min = Math.min(...arr)
- const newArray = [min, max]
- return  newArray
+function hexToDec(hexString){
+  let decimal= parseInt(hexString, 16)
+  return decimal
 }
-console.log(minMax([1, 2, 3, 4, 5]))
+console.log(hexToDec("2f"))
